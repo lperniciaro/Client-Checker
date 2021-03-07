@@ -66,3 +66,6 @@ There are choices for Symantec and Sophos, those are WIP and don't do anything i
 If there are any machines on ConnectWise that have been renamed to something else, you will have a duplicate entry in the final data output. So you may have a machine that doesn't seem to have ConnectWise, but it does. You will notice this as you will have a Machine that only has ConnectWise without Atera or SentinelOne. Just use your best judgement as there could actually be a case where Atera or Antivirus is not installed.
 
 Errors do happen, usually its only on one machine if there's some weird edge case for the data. If something catastrophically bad happens let me know.
+
+# Changes/Issues I need to do at some point
+Soooo antivirus and windows defender will freak out that an excecutable from an unknown source is trying to run. This is because the program is not digitally signed with publisher information. Windows see's this as a random EXE that has no origin, so it thinks it's malicious. 
