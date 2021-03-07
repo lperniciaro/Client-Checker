@@ -2,6 +2,8 @@
 
 Windows: https://github.com/lperniciaro/Client-Checker/archive/main.zip
 
+If you have any problems running the .exe make sure you have the latest version of Visual C++ Redestributable installed (not 100% sure on this I got the program to run on different machines but not sure what dependency is required just lmk if you have issues)
+
 MacOS: no
 
 Linux: why
