@@ -9,10 +9,15 @@ The Client Checker takes data from Atera, SentinelOne, and Screenconnect and com
 # Atera
 
 Atera makes it easy:
+
 •	Reports > Auditor > Select Customer > Export to Excel
+
 Open the xls file in Excel, then:
+
 •	File > Export > Change File Type > Export as CSV 
+
 Save the CSV file in the same directory as the System Checker.
+
 I usually chose a name like "AteraConnally.csv" to not get lost once a bunch of different checks are done.
 
 # Connectwise
