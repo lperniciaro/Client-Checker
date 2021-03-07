@@ -2,7 +2,7 @@
 
 # About
 
-The Client Checker takes data from Atera, SentinelOne, and Screenconnect and compiles it all in one place. The completed CSV file will consolodate the information from their respective places, and let the user know which pieces of software are missing from each individual machine. In order to do this, you must gather the CSV files.
+The Client Checker takes data from Atera, SentinelOne, and Screenconnect and compiles it all in one place. The completed CSV file will consolidate the information from their respective places, and let the user know which pieces of software are missing from each individual machine. In order to do this, you must gather the CSV files.
 
 # Gathering the Files
 
