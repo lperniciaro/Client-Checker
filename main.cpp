@@ -2,14 +2,12 @@
 
 void printMenu(){
     cout << "--------------------------------------------------" << endl;
-    cout << " '1': Load ScreenConnect File" << endl;
+    cout << " '1': Load ConnectWise File" << endl;
     cout << " '2': Load Atera File" << endl;
     cout << " '3': Load Symantec File" << endl;
     cout << " '4': Load Sophos File" << endl;
     cout << " '5': Load SentinelOne File" << endl;
     cout << " '6': OUTPUT SYSTEM CHECK" << endl;
-    cout << " '7': List Atera Computers" << endl;
-    cout << " '8': List Symantec/Sophos Computers" << endl;
     cout << " 'Q': Quit" << endl;
     cout << "--------------------------------------------------" << endl;
     cout << endl
@@ -35,7 +33,7 @@ int main(){
         {
         case '1':
             filename = filePrompt();
-            //do screenconnect stuff here
+            computers.processConnectWise(filename);
             break;
         case '2': //load atera
             filename = filePrompt();
@@ -57,12 +55,6 @@ int main(){
             filename = filePrompt();
             computers.outputFile(filename);
             break;
-        case '7':
-            //atera.listNames();
-            break;
-        case '8':
-            //sophos.listNames();
-            break; //do something Sophos or Symantec
         case 'q':
             break; // do nothing
         default:

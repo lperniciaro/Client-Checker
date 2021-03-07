@@ -66,6 +66,32 @@ void Finaldata::addAntiVirus(string name, string OSname, string OSversion, strin
     }
 }
 
+void Finaldata::addConnectWise(string name, string OSname, string OSversion, string dateSeen){
+    //first check if the PC is already there
+    int index = findName(name);
+    if(index != -1){ //it exists
+        Computers[index].setSC(true);
+        //check if relavent info exists, if it doesn't add it
+        if(Computers[index].getOSName().compare("-") == 0){
+            Computers[index].setOSName(OSname);
+        }
+        if(Computers[index].getOSVersion().compare("-") == 0){
+            Computers[index].setOSVersion(OSversion);
+        }
+        if(Computers[index].getDate().compare("-") == 0){
+            Computers[index].setDate(dateSeen);
+        }
+    }else{
+
+        //Create new computer object as it does not exist
+        Computer comp;
+        comp.setMachine(name, OSname, OSversion, dateSeen);
+        comp.setSC(true);
+        //add to vector
+        Computers.push_back(comp);
+    }
+}
+
 //takes CSV data and compiles into Computer objects, adds those objects to final data Computers vector
 void Finaldata::processAtera(string filename){
     std::ifstream fin(filename);
@@ -132,6 +158,7 @@ void Finaldata::processAtera(string filename){
             addAtera(name, osname, osversion, date);
         }
     }
+    cout << "Atera file successfully imported" << endl;
 }
 
 
@@ -174,6 +201,39 @@ void Finaldata::processSentinelOne(string filename){
             addAntiVirus(name, osname, osversion, date);
         }
     }
+    cout << "SentinelOne file successfully imported" << endl;
+}
+
+void Finaldata::processConnectWise(string filename){
+    ifstream ifs(filename);
+    if (!ifs.is_open())
+    {
+        cout << "Unable to open file: " << filename << endl;
+        return;
+    }
+
+    string name;
+    string osname = "-";       //UNUSED: eventually I can fuck with the screenconnect report generator and have all the data, for now just a list of names
+    string osversion = "-";
+    string date = "-";
+
+    getline(ifs, name, ',');
+    transform(name.begin(), name.end(), name.begin(), ::toupper);
+    addConnectWise(name, osname, osversion, date); //do the first one now because it doesn't have the annoying space to delete
+
+    while (!ifs.eof())
+    {
+        string name;
+        getline(ifs, name, ',');
+        name.erase(0,1); //erase the annoying space
+        if(!ifs.fail()){
+            transform(name.begin(), name.end(), name.begin(), ::toupper);
+            name.erase(std::remove(name.begin(), name.end(), '\n'), name.end()); //remove dumbass endline if it exists
+            addConnectWise(name, osname, osversion, date);
+        }
+    }
+
+    cout << "ConnectWise file successfully imported" << endl;
 }
 
 bool comparitor(Computer a, Computer b){

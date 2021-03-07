@@ -26,15 +26,17 @@ class Finaldata{
 
 
     //add a screenconnect computer
+    void addConnectWise(string name, string OSname, string OSversion, string dateSeen);
 
     //processor files, opens the CSV
     void processAtera(string filename);
     //process atera
 
     //process AV
+    void processSentinelOne(string filename);
 
     //process SC
-    void processSentinelOne(string filename);
+    void processConnectWise(string filename);
     
     //sorts everything
     void alphabeticallySort();
