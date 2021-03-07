@@ -41,7 +41,9 @@ EZPZ with this one
 Yay! Hopefully you have all the input files you need and you can actually get some work done.
 
 Upon launching the Client Checker, you will be greeted with choices for which files you would like to load. 
-![console image](https://imgur.com/a/l6nZpWM)
+
+![console image](https://i.imgur.com/wYohLPX.png)
+
 Select a choice by entering the number listed before the prompt. IE, if I wanted to load an atera file, type 2 then press enter.
 
 After you will be prompted for the file name, type it in exactly how you named it when gathering the input data. Don't forget to add the extension as well.
