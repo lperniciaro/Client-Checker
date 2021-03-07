@@ -1,0 +1,118 @@
+Computer Alias,Action Required,OS,Last Connected,Group,Local Update Host
+ADMISSIONS.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+ADMISSIONS2.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+CENTRALSUPPLY2.wardmemorial.org,-,Win10,Online,Default Group,N/A
+CEO.wardmemorial.org,-,Win10,Online,Default Group,N/A
+CLIENTCARECOORD.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+DROKIN.wardmemorial.org,-,Win10,Online,Default Group,N/A
+DRSTATION2.wardmemorial.org,-,Win7,Online,Default Group,N/A
+ERTRACKING,-,Win10,Online,Default Group,N/A
+FOODSERVICE.wardmemorial.org,-,Win10,Online,Default Group,N/A
+ITADMIN.wardmemorial.org,-,Win10,Online,Default Group,N/A
+MAINTSRVR.wardmemorial.org,Needs Restart,Win2008,Online,MaintSrvr,N/A
+MEDICALRCRDS.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+MEDSURGNORTH.wardmemorial.org,-,Win10,Online,Default Group,N/A
+MEDSURGSOUTH.wardmemorial.org,-,Win10,Online,Default Group,N/A
+OPALFORWARDER.wardmemorial.org,-,Win2012,Online,Default Group,N/A
+PT001.wardmemorial.org,-,Win10,Online,Default Group,N/A
+PT002.wardmemorial.org,-,Win10,Online,Default Group,N/A
+PT003.wardmemorial.org,-,Win10,Online,Default Group,N/A
+PTTEMPLP,-,Win10,Online,Default Group,N/A
+SCLINIC.wardmemorial.org,-,Win10,4/20/2020,Default Group,N/A
+SHFC005248.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+SHFC005251.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+SHFC005252.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+SHFCAD.wardmemorial.org,-,Win10,Online,Default Group,N/A
+SHFCFRNTREC2.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+SHFCMGR1.wardmemorial.org,-,Win10,Online,Default Group,N/A
+SHFCNURSE01.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+SHFCSRAMOS.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+SHFCWIC.wardmemorial.org,-,Win10,Online,Default Group,N/A
+SURGERY.wardmemorial.org,-,Vista,2/21/2020,Default Group,N/A
+WICRECSHFC.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH100.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH101.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH102.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH103.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH104.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH106.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH107.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH108.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH109.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH110.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH111.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH113,-,Win10,Online,Default Group,N/A
+WMH114.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH115.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH116.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH117.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH118.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH119,-,Win10,Online,Default Group,N/A
+WMH120,-,Win10,Online,Default Group,N/A
+WMH121,-,Win10,4/16/2020,Default Group,N/A
+WMH122.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH123.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH124.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH125.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH127.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH128.wardmemorial.org,-,Win10,4/21/2020,USB Drives Enabled,N/A
+WMH131,-,Win10,Online,USB Drives Enabled,N/A
+WMH132,-,Win10,Online,Default Group,N/A
+WMH133.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMH134.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH135.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMH136,-,Win10,Online,Default Group,N/A
+WMH137,-,Win10,4/21/2020,Default Group,N/A
+WMH138,-,Win10,Online,USB Drives Enabled,N/A
+WMH139,-,Win10,Online,USB Drives Enabled,N/A
+WMH140,-,Win10,2/20/2020,USB Drives Enabled,N/A
+WMH141,-,Win10,Online,USB Drives Enabled,N/A
+WMH142,-,Win10,Online,Default Group,N/A
+WMH143,-,Win10,Online,Default Group,N/A
+WMH144,-,Win10,Online,Default Group,N/A
+WMH145,-,Win10,Online,Default Group,N/A
+WMH146,-,Win10,Online,USB Drives Enabled,N/A
+WMH147,-,Win10,Online,USB Drives Enabled,N/A
+WMH148,-,Win10,Online,Default Group,N/A
+WMH149,-,Win10,Online,USB Drives Enabled,N/A
+WMHAPP2SRV.wardmemorial.org,Needs Restart,Win2008,Online,Default Group,N/A
+WMHDC2.wardmemorial.org,Needs Restart,Win2008,Online,Default Group,N/A
+WMHFILESHARE1.wardmemorial.org,-,Win2012,Online,Default Group,N/A
+WMHHELPDESK.wardmemorial.org,-,Win2008,Online,Default Group,N/A
+WMHHLWTS01.wardmemorial.org,-,Win2012,Online,Default Group,N/A
+WMHHLWTS02.wardmemorial.org,Needs Restart,Win2012,Online,Default Group,N/A
+WMHHLWTS03.wardmemorial.org,Needs Restart,Win2012,Online,Default Group,N/A
+WMHHLWTS04.wardmemorial.org,-,Win2012,Online,Default Group,N/A
+WMHICARE.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMHITAPPS1.wardmemorial.org,-,Win2012,Online,Default Group,N/A
+WMHKAMDON.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHLAB-IFACE.wardmemorial.org,-,Win7,Online,Default Group,N/A
+WMHLABOR2.wardmemorial.org,-,Win7,1/5/2020,Default Group,N/A
+WMHLABVS.wardmemorial.org,-,Win7,Online,Default Group,N/A
+WMHLPT101.wardmemorial.org,-,Win10,4/20/2020,Default Group,N/A
+WMHLPT103,-,Win7,3/4/2020,Default Group,N/A
+WMHLPT106,-,Win10,4/13/2020,Default Group,N/A
+WMHLPT107,-,Win7,4/14/2020,Default Group,N/A
+WMHLPT108,-,Win10,4/20/2020,Default Group,N/A
+WMHLPT109,-,Win10,Online,Default Group,N/A
+WMHLPT110,-,Win10,4/21/2020,Default Group,N/A
+WMHLPT111,-,Win10,4/18/2020,Default Group,N/A
+WMHLPT112,-,Win10,3/2/2020,Default Group,N/A
+WMHLPT113,-,Win10,Online,Default Group,N/A
+WMHLPT114,-,Win10,4/17/2020,Default Group,N/A
+WMHLPT115,-,Win10,Online,Default Group,N/A
+WMHMIDCLAB.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHMIDLAB.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHMOBILEONE.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHNOVANET.wardmemorial.org,-,Win2012,Online,Default Group,N/A
+WMHNURMS.wardmemorial.org,-,Win10,Online,USB Drives Enabled,N/A
+WMHPDC.wardmemorial.org,-,Win2012,Online,Default Group,N/A
+WMHPHARJH.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHPHARPH.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHSD.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHTAB100.wardmemorial.org,-,Win10,4/21/2020,Default Group,N/A
+WMHTAB101.wardmemorial.org,-,Win10,4/21/2020,Default Group,N/A
+WMHTAB102.wardmemorial.org,-,Win10,Online,Default Group,N/A
+WMHTAB104,-,Win10,4/21/2020,Default Group,N/A
+WMHVH1,-,Win2012,Online,Default Group,N/A
+WMHWSUS.wardmemorial.org,-,Win2008,Online,Default Group,N/A

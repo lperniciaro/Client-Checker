@@ -1,0 +1,69 @@
+Computer Alias,Action Required,OS,Last Connected,Group,Local Update Host
+APPASSURE.cranememorial.org,-,Win2008,Online,Default Group,N/A
+C-CHECKIN1.cranememorial.org,-,Win10,5/13/2020,Default Group,N/A
+C-DR2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+C-DR22019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+C-MOBILE2.cranememorial.org,-,Win7,1/17/2020,Default Group,N/A
+C-MOBILE4.cranememorial.org,Needs Restart,Win10,1/13/2020,Default Group,N/A
+C-MOBILE6.cranememorial.org,Agent Update,Win7,10/23/2018,Default Group,N/A
+C-NURSEA2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+C-NURSEB2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+C-NURSES4.cranememorial.org,-,Win7,1/6/2020,Default Group,N/A
+C-PA2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+C-RECEPA2019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+C-RECEPB2019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+CMH-PC,-,Win7,5/21/2020,Default Group,N/A
+CMH-SRV2.cranememorial.org,-,Win2016,Online,Default Group,N/A
+CMHDC1.cranememorial.org,-,Win2016,Online,Default Group,N/A
+CMHDC2.cranememorial.org,-,Win2016,Online,Default Group,N/A
+CMHITAPPS1,-,Win2016,Online,Default Group,N/A
+CMHVH1,Needs Restart,Win2016,Online,Default Group,N/A
+H-ACCONTROL2019,-,Win10,2/12/2020,Default Group,N/A
+H-AP2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-AP3.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-AP4.cranememorial.org,-,Win7,Online,Default Group,N/A
+H-AR1.cranememorial.org,-,Win7,2/10/2020,Default Group,N/A
+H-ARA2019.cranememorial.org,-,Win10,5/22/2020,Default Group,N/A
+H-BACKUP2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-CDI1.cranememorial.org,-,Win7,Online,Default Group,N/A
+H-CEO2019.cranememorial.org,-,Win10,10/30/2019,Default Group,N/A
+H-CFO4.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-CSUPPLY2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-DIETARY1.cranememorial.org,-,Win7,5/26/2020,Default Group,N/A
+H-DON2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-DR1.cranememorial.org,-,Win7,1/16/2020,Default Group,N/A
+H-DR12019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+H-DR22019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-DR32019.cranememorial.org,-,Win10,5/22/2020,Default Group,N/A
+H-ER2019.cranememorial.org,-,Win10,5/22/2020,Default Group,N/A
+H-HVAC,-,Win10,Online,Default Group,N/A
+H-HVAC2,-,Win10,Online,Default Group,N/A
+H-IT.cranememorial.org,-,Win7,2/6/2020,Default Group,N/A
+H-ITDESKTOP2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-LAB2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-LABDIR2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-MAINT2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-MEDCART2.cranememorial.org,-,Win7,Online,Default Group,N/A
+H-MEDCART3.cranememorial.org,-,Win7,Online,Default Group,N/A
+H-MEDREC2019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+H-MEDRECA2019.cranememorial.org,-,Win10,5/22/2020,Default Group,N/A
+H-MEDRECB2019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+H-MOBILE3.cranememorial.org,-,Win7,6/25/2019,Default Group,N/A
+H-MOBILE6.cranememorial.org,-,Win7,10/8/2019,Default Group,N/A
+H-NURSEA2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-NURSEB2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-NURSES3.cranememorial.org,-,Win7,1/23/2020,Default Group,N/A
+H-NURSES7.cranememorial.org,-,Win7,5/23/2020,Default Group,N/A
+H-PHARMACY1.cranememorial.org,-,Win7,4/7/2020,Default Group,N/A
+H-PHARMACY2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-QANURSE2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+H-RADIOLOGY2.cranememorial.org,-,Win7,Online,Radiology (Firewall Disabled),N/A
+H-RADIOLOGY2019.cranememorial.org,-,Win10,Online,Radiology (Firewall Disabled),N/A
+H-RECEP2019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+IT-LAPTOP1.cranememorial.org,-,Win10,Online,Default Group,N/A
+IT-LAPTOP2-PC.cranememorial.org,-,Win10,5/22/2020,Default Group,N/A
+P-DESKTOP2019B.cranememorial.org,-,Win10,Online,Default Group,N/A
+P-DESKTOPA2019.cranememorial.org,-,Win10,Online,Default Group,N/A
+P-LAPTOPDIR.cranememorial.org,-,Win10,7/10/2019,Default Group,N/A
+P-PTDIR2019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
+P-RECEP2019.cranememorial.org,-,Win10,5/26/2020,Default Group,N/A
