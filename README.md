@@ -1,7 +1,9 @@
 # Client-Checker Download
 
 Windows: https://github.com/lperniciaro/Client-Checker/archive/main.zip
+
 MacOS: no
+
 Linux: why
 
 # About
