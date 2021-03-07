@@ -2,7 +2,7 @@
 
 # About
 
-The Client Checker takes data from Atera, SentinelOne, and Screenconnect and compiles it all in one place. The completed CSV file will consolidate the information from their respective places, and let the user know which pieces of software are missing from each individual machine. In order to do this, you must gather the CSV files.
+The Client Checker takes data from Atera, SentinelOne, and Screenconnect and compiles it all in one place. The completed CSV file will consolidate the information from their respective places, and let the user know which pieces of software are missing from each individual machine. In order to do this, you must gather the input files.
 
 # Gathering the Files
 
@@ -18,7 +18,7 @@ Open the xls file in Excel, then:
 
 Save the CSV file in the same directory as the System Checker.
 
-I usually chose a name like "AteraConnally.csv" to not get lost once a bunch of different checks are done.
+I usually chose a name like "AteraConnally.csv"
 
 # Connectwise
 
@@ -54,3 +54,5 @@ Once you have loaded in files for Connectwise, Atera, and SentinelOne press 6 to
 There are choices for Symantec and Sophos, those are WIP and don't do anything in the latest version right now.
 
 If there are any machines on ConnectWise that have been renamed to something else, you will have a duplicate entry in the final data output. So you may have a machine that doesn't seem to have ConnectWise, but it does. You will notice this as you will have a Machine that only has ConnectWise without Atera or SentinelOne. Just use your best judgement as there could actually be a case where Atera or Antivirus is not installed.
+
+Errors do happen, usually its only on one machine if there's some weird edge case for the data. If something catastrophically bad happens let me know.
