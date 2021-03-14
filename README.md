@@ -6,7 +6,7 @@ If you have any problems running the .exe make sure you have the latest version 
 
 MacOS: no
 
-Linux: why
+Linux: Ask me if you want it
 
 # About
 
@@ -60,7 +60,7 @@ For screenconnect "filename.txt".
 
 Once you have loaded in files for Connectwise, Atera, and SentinelOne press 6 to output the file. You will be prompted for an output file name. Obviously the name doesn't matter, just make sure to add ".csv" at the end. You should see the filename in the directory of the ClientChecker and you're done! You should also see a preliminary output of Ys and Ns. If you see an entire row of N you probably input the data incorrectly or a file was not able to be read.
 
-OH YEAH, restart the program everytime you run an output file or else things will break. I'll fix this next version.
+Restart the program everytime you run an output file or else things will break. I'll fix this next version.
 
 # Extra notes
 There are choices for Symantec and Sophos, those are WIP and don't do anything in the latest version right now.
