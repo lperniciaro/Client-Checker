@@ -9,6 +9,10 @@ Finaldata::~Finaldata(){
    Computers.clear(); 
 }
 
+void Finaldata::reset(){
+    Computers.clear();
+}
+
 int Finaldata::findName(string name){
     int len = Computers.size();
     for(int i = 0 ; i < len ; i++){

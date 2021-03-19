@@ -50,13 +50,13 @@ int main(){
             //process sentinelone CSV
             filename = filePrompt();
             computers.processSentinelOne(filename);
-            //cleanup
-            computers.~Finaldata();
             break;
         case '6':
-        //output check
+            //output check
             filename = filePrompt();
             computers.outputFile(filename);
+            //cleanup
+            computers.reset();
             break;
         case 'q':
             break; // do nothing

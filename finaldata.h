@@ -20,6 +20,9 @@ class Finaldata{
     //default destructor
     ~Finaldata();
 
+    //reset list
+    void reset();
+
     //add an atera computer
     void addAtera(string name, string OSname, string OSversion, string dateSeen);
 
