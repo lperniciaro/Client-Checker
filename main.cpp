@@ -26,6 +26,7 @@ int main(){
     string filename;
     Finaldata computers;
 
+
     do{
         printMenu();
         cin >> choice;
@@ -49,6 +50,8 @@ int main(){
             //process sentinelone CSV
             filename = filePrompt();
             computers.processSentinelOne(filename);
+            //cleanup
+            computers.~Finaldata();
             break;
         case '6':
         //output check

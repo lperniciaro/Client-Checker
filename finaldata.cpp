@@ -5,6 +5,10 @@ Finaldata::Finaldata(){
     //do nothing lol
 }
 
+Finaldata::~Finaldata(){
+   Computers.clear(); 
+}
+
 int Finaldata::findName(string name){
     int len = Computers.size();
     for(int i = 0 ; i < len ; i++){

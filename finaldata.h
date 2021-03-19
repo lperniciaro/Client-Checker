@@ -17,6 +17,9 @@ class Finaldata{
     //default constructor
     Finaldata();
 
+    //default destructor
+    ~Finaldata();
+
     //add an atera computer
     void addAtera(string name, string OSname, string OSversion, string dateSeen);
 
