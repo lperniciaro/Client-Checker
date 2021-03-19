@@ -28,6 +28,7 @@ int main(){
 
 
     do{
+        cout << "Current version: 1.01" << endl;
         printMenu();
         cin >> choice;
         switch (tolower(choice))
