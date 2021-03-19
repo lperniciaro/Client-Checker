@@ -10,7 +10,7 @@ Linux: Ask me if you want it
 
 # About
 
-The Client Checker takes data from Atera, SentinelOne, and Screenconnect and compiles it all in one place. The completed CSV file will consolidate the information from their respective places, and let the user know which pieces of software are missing from each individual machine. In order to do this, you must gather the input files.
+The Client Checker takes data from Atera, SentinelOne, and Screenconnect and compiles it all in one place. The completed CSV file will consolidate the information from their respective places, and let the user know which pieces of software are missing from each individual machine. It will also provide handy information on machines. In order to do this, you must gather the input files.
 
 # Gathering the Files
 
@@ -56,18 +56,32 @@ Select a choice by entering the number listed before the prompt. IE, if I wanted
 
 After you will be prompted for the file name, type it in exactly how you named it when gathering the input data. Don't forget to add the extension as well.
 So, if I wanted to load the Connally Atera file, type "AteraConnally.csv" (or whatever you decided to name it)
+
 For screenconnect "filename.txt".
 
 Once you have loaded in files for Connectwise, Atera, and SentinelOne press 6 to output the file. You will be prompted for an output file name. Obviously the name doesn't matter, just make sure to add ".csv" at the end. You should see the filename in the directory of the ClientChecker and you're done! You should also see a preliminary output of Ys and Ns. If you see an entire row of N you probably input the data incorrectly or a file was not able to be read.
 
-Restart the program everytime you run an output file or else things will break. I'll fix this next version.
+Once you open the final csv file, open it and format it as a table and you're good to go. You can now upload the document to OneDrive.
 
-# Extra notes
-There are choices for Symantec and Sophos, those are WIP and don't do anything in the latest version right now.
+I also like to use conditional formatting in excel to highlight values labeled "N" as red. To do this, highlight the columns, select coniditional formatting > highlight cell rules > equal to and type the letter N. 
 
 If there are any machines on ConnectWise that have been renamed to something else, you will have a duplicate entry in the final data output. So you may have a machine that doesn't seem to have ConnectWise, but it does. You will notice this as you will have a Machine that only has ConnectWise without Atera or SentinelOne. Just use your best judgement as there could actually be a case where Atera or Antivirus is not installed.
 
+# Extra notes
+
+There are choices for Symantec and Sophos, those are WIP and don't do anything in the latest version right now.
+
 Errors do happen, usually its only on one machine if there's some weird edge case for the data. If something catastrophically bad happens let me know.
 
-# Changes/Issues I need to do at some point
-Soooo antivirus and windows defender will freak out that an excecutable from an unknown source is trying to run. This is because the program is not digitally signed with publisher information. Windows see's this as a random EXE that has no origin, so it thinks it's malicious. 
+# Things to Do
+
+Get the code signed so the program does not appear as malicious to every single antivirus software.
+
+Either delete Symantec and Sophos options, or get them working again. I'll have to see if we still use either of those softwares for any of our clients.
+
+# Changelog
+v1.01: 
+
+•	Fixed restart bug, you no longer have to restart the program to work on multiple sites
+
+•	Prints version number when initially launching application
