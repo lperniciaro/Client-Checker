@@ -79,6 +79,8 @@ Get the code signed so the program does not appear as malicious to every single 
 
 Either delete Symantec and Sophos options, or get them working again. I'll have to see if we still use either of those softwares for any of our clients.
 
+Add a GUI? Pros: Easier to use, Cons: a lot of dev work to make a decent GUI for C++, whereas the current version already saves so much time not sure if it's worth the dev time cost.
+
 # Changelog
 v1.01: 
 
