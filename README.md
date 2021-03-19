@@ -65,7 +65,7 @@ Once you open the final csv file, open it and format it as a table and you're go
 
 I also like to use conditional formatting in excel to highlight values labeled "N" as red. To do this, highlight the columns, select coniditional formatting > highlight cell rules > equal to and type the letter N. 
 
-If there are any machines on ConnectWise that have been renamed to something else, you will have a duplicate entry in the final data output. So you may have a machine that doesn't seem to have ConnectWise, but it does. You will notice this as you will have a Machine that only has ConnectWise without Atera or SentinelOne. Just use your best judgement as there could actually be a case where Atera or Antivirus is not installed.
+There will be a duplicate entry if a machine on Connectwise has been renamed to something other than the exact machine name. You will notice this as most likely the names are similar. If there is a machine that has Atera and AntiVirus, but no screenconnect, try to find a matching machine that states only ConnectWise is installed. It will most likely have a similar name and be easy to decipher.
 
 # Extra notes
 
