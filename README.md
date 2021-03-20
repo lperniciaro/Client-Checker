@@ -87,3 +87,7 @@ v1.01:
 •	Fixed restart bug, you no longer have to restart the program to work on multiple sites
 
 •	Prints version number when initially launching application
+
+v1.02 (WIP):
+•	Fixed annoying double quote appearing in os version when parsing data from SentinelOne
+
