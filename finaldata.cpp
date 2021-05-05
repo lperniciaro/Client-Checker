@@ -104,7 +104,7 @@ void Finaldata::addConnectWise(string name, string OSname, string OSversion, str
 void Finaldata::processAtera(string filename){
     std::ifstream fin(filename);
     if(!fin.is_open()){
-        cout << "Unable to open file: " << filename << endl;
+        cout << endl << endl << "Unable to open file: " << filename << endl << endl ;
         return;
     }
 
@@ -126,11 +126,16 @@ void Finaldata::processAtera(string filename){
         //get name
         getline(ss, name, ',');
         
-        //get date
+        //get date TODO fix wrong data if Last seen = N/A no quotes will be there
         getline(ss, date, ','); //skips past machine name, domain workgroup data
         getline(ss, date, ',');
-        getline(ss, date, '"'); //gets date in the quotation marks
-        getline(ss, date, '"');
+        if(ss.peek() == 34){
+            getline(ss, date, '"'); //gets date in the quotation marks
+            getline(ss, date, '"');
+        }else{
+            date = "-"; //date not found
+        }
+        
 
         //get osname
         getline(ss, osname, ','); //go to login date
@@ -166,7 +171,7 @@ void Finaldata::processAtera(string filename){
             addAtera(name, osname, osversion, date);
         }
     }
-    cout << "Atera file successfully imported" << endl;
+    cout << endl << endl << "Atera file successfully imported" << endl << endl;
 }
 
 
@@ -174,7 +179,7 @@ void Finaldata::processSentinelOne(string filename){
     ifstream ifs(filename);
     if (!ifs.is_open())
     { //if the file cannot open give error message
-        cout << "Unable to open file: " << filename << endl;
+        cout << endl << endl << "Unable to open file: " << filename << endl << endl ;
         return;
     }
 
@@ -203,20 +208,21 @@ void Finaldata::processSentinelOne(string filename){
         //formatting
         transform(name.begin(), name.end(), name.begin(), ::toupper); //name in uppercase
         osname.erase(0, 1); //get rid of dumb quotation mark that breaks things
+        osversion.erase(std::remove(osversion.begin(), osversion.end(), '"'), osversion.end()); //remove double quote on osversion
 
         if (!ss.fail())
         {
             addAntiVirus(name, osname, osversion, date);
         }
     }
-    cout << "SentinelOne file successfully imported" << endl;
+    cout << endl << endl << "SentinelOne file successfully imported" << endl << endl;
 }
 
 void Finaldata::processConnectWise(string filename){
     ifstream ifs(filename);
     if (!ifs.is_open())
     {
-        cout << "Unable to open file: " << filename << endl;
+        cout << endl << endl << "Unable to open file: " << filename << endl << endl ;
         return;
     }
 
@@ -241,7 +247,52 @@ void Finaldata::processConnectWise(string filename){
         }
     }
 
-    cout << "ConnectWise file successfully imported" << endl;
+    cout << endl << endl << "ConnectWise file successfully imported" << endl << endl;
+}
+
+void Finaldata::processSophos(string filename){
+    ifstream ifs(filename);
+    if (!ifs.is_open())
+    { //if the file cannot open give error message
+        cout << endl << endl << "Unable to open file: " << filename << endl << endl ;
+        return;
+    }
+
+    string line;
+    getline(ifs, line); //get rid of junk line
+
+    while (!ifs.eof())
+    {
+        //collect data from file
+        string line;
+        getline(ifs, line);
+        istringstream ss(line);
+
+        string name;
+        string osname;
+        string osversion = "-"; //sophos does not provide osversion
+        string date;
+        string datetemp;
+        getline(ss, name, ',');
+        getline(ss, name, ',');
+        getline(ss, osname, ',');
+        getline(ss, osname, ',');
+        for(int i = 0 ; i < 3 ; i++) //read past data
+            getline(ss, datetemp, ',');
+        getline(ss, datetemp, '"');
+        date = '"';
+        getline(ss, datetemp, '"');
+        date += datetemp + '"';
+
+        transform(name.begin(), name.end(), name.begin(), ::toupper);
+
+        if (!ss.fail())
+        {
+            addAntiVirus(name, osname, osversion, date);
+        }
+    }
+
+    cout << endl << endl << "Sophos file successfully imported" << endl << endl;
 }
 
 bool comparitor(Computer a, Computer b){

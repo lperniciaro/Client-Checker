@@ -43,6 +43,8 @@ class Finaldata{
 
     //process SC
     void processConnectWise(string filename);
+
+    void processSophos(string filename);
     
     //sorts everything
     void alphabeticallySort();

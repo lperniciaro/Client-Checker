@@ -4,10 +4,9 @@ void printMenu(){
     cout << "--------------------------------------------------" << endl;
     cout << " '1': Load ConnectWise File" << endl;
     cout << " '2': Load Atera File" << endl;
-    cout << " '3': Load Symantec File" << endl;
+    cout << " '3': Load SentinelOne File" << endl;
     cout << " '4': Load Sophos File" << endl;
-    cout << " '5': Load SentinelOne File" << endl;
-    cout << " '6': OUTPUT SYSTEM CHECK" << endl;
+    cout << " '5': OUTPUT SYSTEM CHECK" << endl;
     cout << " 'Q': Quit" << endl;
     cout << "--------------------------------------------------" << endl;
     cout << endl
@@ -28,7 +27,7 @@ int main(){
 
 
     do{
-        cout << "Current version: 1.01" << endl;
+        cout << "Current version: 1.02" << endl;
         printMenu();
         cin >> choice;
         switch (tolower(choice))
@@ -42,17 +41,15 @@ int main(){
             computers.processAtera(filename);
             break;
         case '3':
-            //processLoadSymantec(symantec);
-            break;
-        case '4':
-            //processLoadSophos(sophos);
-            break;
-        case '5':
             //process sentinelone CSV
             filename = filePrompt();
             computers.processSentinelOne(filename);
             break;
-        case '6':
+        case '4':
+            filename = filePrompt();
+            computers.processSophos(filename);
+            break;
+        case '5':
             //output check
             filename = filePrompt();
             computers.outputFile(filename);
